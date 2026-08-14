@@ -12,4 +12,6 @@ async function lookWest() {
   return map.getState();
 }
 
-return await lookWest();
+return (async() => {
+  await lookWest()
+})();
