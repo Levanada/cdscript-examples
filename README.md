@@ -1,6 +1,6 @@
 # CDScript examples
 
-Starter scripts for the CDGIS Script Editor. Open the editor, pick a **Starting point**, then edit and run.
+Example scripts for the CDGIS Script Editor.
 
 CDScript is sandboxed JavaScript with `map`, `mapAPI`, and `console`. There is no network, DOM, or host access. Language reference: [cdgis.com/cdscript](https://cdgis.com/cdscript).
 
@@ -13,5 +13,3 @@ CDScript is sandboxed JavaScript with `map`, `mapAPI`, and `console`. There is n
 | `draw-line.cds` | Draw a 3D line with `mapAPI` |
 | `terrain-overlook.cds` | Satellite + terrain over Mount St. Helens |
 | `weather-now.cds` | National live radar over the current view |
-
-Register a new starter in `index.ts` so it appears in the editor list. Do not use reserved tokens (`window`, `fetch`, `eval`, and the rest listed in the language reference).
